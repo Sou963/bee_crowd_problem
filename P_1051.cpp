@@ -20,9 +20,10 @@ int main() {
         if (salary > 2000.0) {
             tax += (salary - 2000.0) * 0.08;
         }
-        cout << fixed << setprecision(2);
+        cout << fixed << setprecision(2)
         cout << "R$ " << tax << endl;
     }
     return 0;
 }
+
 
